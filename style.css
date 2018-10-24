@@ -1,0 +1,51 @@
+p { 
+    font-weight: bold;
+    font-size:20px;
+}
+h1{ color:white; text-align:center; text-shadow: 2px 2px #FF0000;}
+body { background: green;}
+
+.card { background: white;
+        margin:auto; 
+        height:400px; 
+        width: 300px; 
+        border-radius:30px; 
+        border: 2px solid black;
+        position:relative;
+        padding: 20px;
+        text-align:center;
+}
+        .Top-suit { position:absolute;
+            top:20px;
+            left:20px;
+            font-size:80px;
+        }
+        
+        .Bottom-suit { position:absolute;
+            bottom:20px;
+            right:20px;
+            font-size:80px;
+        }
+        
+        .before { position:absolute;
+            top:20px;
+            left:20px;
+            font-size:80px;
+        }
+    
+        .after { position:absolute;
+            bottom:20px;
+            right:20px;
+            font-size:80px;
+        }
+        .number {
+            line-height:400px;
+            font-size:80px;
+        }
+        
+        .spade:before  { content: '\2660';}
+        .club:before{ content: '\2663';}
+        .heart:before  { content: '\2665'; color:red;}
+        .diamond:before  { content: '\2666'; color:red;}
+           
+        
