@@ -2,6 +2,9 @@ p {
     font-weight: bold;
     font-size:20px;
 }
+div > p {
+    text-align: center;
+}
 h1{ color:white; text-align:center; text-shadow: 2px 2px #FF0000;}
 body { background: green;}
 
@@ -47,5 +50,3 @@ body { background: green;}
         .club:before{ content: '\2663';}
         .heart:before  { content: '\2665'; color:red;}
         .diamond:before  { content: '\2666'; color:red;}
-           
-        
